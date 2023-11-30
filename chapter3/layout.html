@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>레이아웃</title>
+        <link rel="stylesheet" href="./layout.css" />
+    </head>
+    <body>
+        <div id="header">
+            <h3>레이아웃 만들기</h3>
+            <div id="searchBar">
+                <input type="text" />
+            </div>
+            <button>뉴스</button>
+            <button>날씨</button>
+            <button>스포츠</button>
+            <button>영화</button>
+            <button>더보기</button>
+        </div>
+        <div id="contents">
+            <p>레이아웃 내용 예제</p>
+        </div>
+        <div id="footer">
+            <a href="https://hansei.ac.kr">한세대학교</a>
+        </div>
+
+        <script>
+            var name = "PJJ";
+            var age = 10;
+            var birth;
+            console.log(birth === undefined);
+            var ex = null;
+
+            // Object
+            var person = {
+                name: "PJJ",
+                age: 10,
+                tall: 180,
+                gender: "female",
+                run: function() {
+                    console.log("run!!!!");
+                }
+            };
+
+            console.log("person", person.run());
+
+            // []
+            // 더하기
+            function add(a, b) {
+                return a + b;
+            }
+
+            // 곱하기
+            function multi(a, b) {
+                return a * b;
+            }
+
+            // 나누기
+            function div(a, b) {
+                return a / b;
+            }
+
+            // 나머지 구하기
+            function rem(a, b) {
+                return a % b;
+            }
+
+            var result = rem(7, 3);
+            console.log(result);
+
+            // const age = 10;
+
+            // console.log(age);
+
+            // let을 통한 변수 선언 및 값 할당
+            /*
+            let age = 5;
+            age = 10;
+            console.log(age);
+
+            age = 20;
+            console.log(age);
+
+            age = "나이";
+            console.log(age);
+            */
+
+            // name 변수 선언 및 값 할당
+            /*
+            var name;
+            console.log(name);
+
+            name = "PJJ";            
+            console.log(name);
+
+            name = "Unknown";
+            console.log(name);
+
+            name = 123;
+            console.log(name);
+            */
+
+        </script>
+    </body>
+</html>
